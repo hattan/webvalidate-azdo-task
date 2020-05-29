@@ -1,0 +1,23 @@
+{
+  "name": "webvalidate-azdo-task",
+  "version": "1.0.0",
+  "description": "An Azure DevOps task for Web Validate",
+  "main": ".bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pack": "./node_modules/.bin/copyfiles package.json task.json icon.png \".bin/*.js\" -e \".bin/tests/*\" .dist && cd .dist && npm install --only=prod",
+    "start": "node .bin/index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "azure-pipelines-task-lib": "^2.9.5"
+  },
+  "devDependencies": {
+    "@types/mocha": "^7.0.2",
+    "@types/node": "^14.0.5",
+    "@types/q": "^1.5.4",
+    "copyfiles": "^2.2.0",
+    "cpx": "^1.5.0"
+  }
+}

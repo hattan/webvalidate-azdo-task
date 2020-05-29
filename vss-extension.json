@@ -1,0 +1,33 @@
+{
+    "manifestVersion": 1,
+    "id": "web-validate",
+    "name": "Web Validate",
+    "version": "0.0.17",
+    "publisher": "HattanShobokshi",
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],    
+    "description": "Web Validate (WebV) is a web request validation tool to run integration tests and long-running smoke tests.",
+    "categories": [
+        "Azure Pipelines"
+    ],
+    "files": [
+        {
+            "path": ".dist"
+        }
+    ],
+    "contributions": [
+        {
+            "id": "web-validate",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": ".dist"
+            }
+        }
+    ]
+}

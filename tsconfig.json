@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",
+    "module": "commonjs",
+    "types" : ["node","mocha"],
+    "outDir": ".bin",   
+  },
+  "include": [
+    "src/**/*",
+  ],
+  "exclude": [    
+    "node_modules/**/*"
+  ]
+}
