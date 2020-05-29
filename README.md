@@ -1,4 +1,4 @@
-# Webvalidate Azure Devops Pipeline Task
+# WebValidate Azure Devops Pipeline Task
 A task for running [Web Validate](https://github.com/retaildevcrews/webvalidate) in your Azure Pipelines.
 
 The task is currently in development and not available in the Marketplace, but will be soon! :)
