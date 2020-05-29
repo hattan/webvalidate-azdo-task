@@ -2,7 +2,7 @@
     "manifestVersion": 1,
     "id": "web-validate",
     "name": "Web Validate",
-    "version": "0.0.17",
+    "version": "0.0.26",
     "publisher": "HattanShobokshi",
     "targets": [
         {
